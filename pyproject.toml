@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "agent-memory-mcp-server"
-version = "0.1.0"
+version = "0.1.1"
 description = "Persistent memory for AI agents — store, retrieve and search knowledge across sessions"
 readme = "README.md"
 license = {text = "MIT"}
