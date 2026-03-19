@@ -27,5 +27,8 @@ dependencies = [
 Homepage = "https://github.com/AiAgentKarl/agent-memory-mcp-server"
 Repository = "https://github.com/AiAgentKarl/agent-memory-mcp-server"
 
+[project.scripts]
+agent-memory-server = "src.server:main"
+
 [tool.hatch.build.targets.wheel]
 packages = ["src"]
